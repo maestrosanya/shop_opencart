@@ -1,0 +1,4452 @@
+2017-04-12 13:37:41 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+2017-04-12 13:42:47 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+2017-04-14 17:17:51 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+2017-04-14 17:40:25 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+2017-04-14 20:50:03 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 20:57:14 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Foo
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 20:57:49 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Foo
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:04:43 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:05:15 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Foo
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:05:42 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:15:38 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:16:27 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Foo
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:20:36 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:20:56 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Foo
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:23:32 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Foo
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:23:57 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Foo
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:25:38 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Foo
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:25:48 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Foo
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:27:32 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:27:37 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Foo
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:28:07 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:28:27 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Foo
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-14 21:28:42 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Foo
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-15 15:03:23 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-15 15:08:57 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Maestro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+2017-04-15 15:11:47 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-15 15:12:52 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Maestro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+2017-04-15 15:13:13 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Maestro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+2017-04-15 15:15:11 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Maestro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+2017-04-15 15:15:31 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Maestro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+2017-04-15 15:18:00 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-15 15:19:02 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Maestro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+2017-04-15 15:20:48 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Maestro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+2017-04-15 15:21:15 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Maestro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+2017-04-15 15:28:35 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-15 15:28:50 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Maestro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+2017-04-17 22:09:00 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Maestro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+2017-04-17 22:20:15 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-04-17 22:20:35 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Maestro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+2017-04-17 22:25:10 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Maestro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+2017-04-17 22:49:17 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Maestro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+2017-04-25 18:57:42 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Maestro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------
+2017-04-27 0:04:05 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Auto URL by WDM
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 54
+CODE: <?php echo $footer; ?>
+LINE: 1449
+CODE: name="product_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 64
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 79
+CODE: name="keyword"
+LINE: 246
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 338
+CODE: name="category_description[<?php echo $language['language_id']; ?>][name]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 71
+CODE: name="keyword"
+LINE: 151
+
+FILE: admin/controller/catalog/manufacturer.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $column_left; ?>
+LINE: 11
+CODE: <?php echo $footer; ?>
+LINE: 118
+CODE: name="name"
+LINE: 41
+CODE: name="keyword"
+LINE: 81
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php foreach ($languages as $language) { ?>
+LINE: 46
+CODE: <?php echo $footer; ?>
+LINE: 250
+CODE: name="information_description[<?php echo $language['language_id']; ?>][title]"
+LINE: 56
+CODE: id="input-meta-title<?php echo $language['language_id']; ?>" class="form-control"
+LINE: 74
+CODE: name="keyword"
+LINE: 131
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Maestro
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'extension/extension')) {
+LINE: 182
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: <?php
+LINE: 1
+----------------------------------------------------------------

@@ -1,0 +1,100 @@
+/* Global style */
+a {
+  color: #25254c;
+  &:hover {
+    text-decoration: none;
+  }
+}
+h3 {
+  font-size: 26px;
+}
+/* Header */
+header {
+  background-color: #000000;
+}
+
+.account__login {
+  color: #82c9ca;
+  &:hover {
+    color: #00a8c6;
+  }
+  &:focus,
+  &:visited,
+  &:active {
+    color: #00a8c6;
+    text-decoration: none;
+  }
+}
+
+.mfp-content {
+  top: -200px;
+}
+.form-login-wrap {
+  position: relative;
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 10px 25px;
+  border: 1px solid #8c8c8c;
+  border-radius: 7px;
+  background-color: #FFFFFF;
+  text-align: center;
+  box-shadow: 0px 5px 40px 0px rgba(0,0,0,1);
+}
+.alert-danger {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 5px;
+}
+.form-login__input {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 30px;
+  padding: 0 8px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  &:focus {
+    outline-color: #A9A9A9;
+  }
+}
+button.btn_login {
+  width: 55%;
+  background-color: #222850;
+  padding: 18px 0;
+  margin: 12px 0 10px 0;
+  border: none;
+  border-radius: 5px;
+  color: #82c9ca;
+  font-size: 16px;
+  letter-spacing: 2px;
+  &:hover {
+    background-color: #25254c;
+    box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, 0.84);
+    transition: all 0.3s;
+  }
+}
+.form-login__link {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+/* Header phone */
+
+.header__phone-wrap {
+  margin-top: 8px;
+}
+.header__phone {
+  font-size: 26px;
+  vertical-align: middle;
+  &_span {
+    font-size: 20px;
+    padding-left: 4px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    font-style: italic;
+  }
+}
+/* Cart */
+.cart {
+  background-color: #9acd32;
+  border-radius: 0px;
+}

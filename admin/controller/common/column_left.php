@@ -170,9 +170,9 @@ class ControllerCommonColumnLeft extends Controller {
 					'href'     => $this->url->link('extension/installer', 'token=' . $this->session->data['token'], true),
 					'children' => array()		
 				);					
-			}	
+			}
 			
-			if ($this->user->hasPermission('access', 'extension/extension')) {		
+			if ($this->user->hasPermission('access', 'extension/extension')) {
 				$extension[] = array(
 					'name'	   => $this->language->get('text_extension'),
 					'href'     => $this->url->link('extension/extension', 'token=' . $this->session->data['token'], true),

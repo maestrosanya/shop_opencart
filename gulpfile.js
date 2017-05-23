@@ -30,7 +30,7 @@ gulp.task('sass', function() {
 
 // Наблюдение за файлами
 gulp.task('watch', ['sass', 'browser-sync'], function() {
-	gulp.watch('catalog/view/theme/apple/stylesheet/stylesheet.scss', ['sass']);
+	gulp.watch('catalog/view/theme/apple/stylesheet/stylesheet.scss', ['sass'], browserSync.reload);
 	gulp.watch('catalog/view/theme/apple/template/**/*.tpl', browserSync.reload);
 	gulp.watch('catalog/view/theme/apple/js/**/*.js', browserSync.reload);
 	gulp.watch('catalog/view/theme/apple/libs/**/*', browserSync.reload);
