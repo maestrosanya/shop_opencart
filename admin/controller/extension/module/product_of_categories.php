@@ -52,6 +52,8 @@ class ControllerExtensionModuleProductOfCategories extends Controller
 
         $data['entry_name'] = $this->language->get('entry_name');
         $data['entry_status'] = $this->language->get('entry_status');
+        $data['entry_width'] = $this->language->get('entry_width');
+        $data['entry_height'] = $this->language->get('entry_height');
         $data['entry_limit'] = $this->language->get('entry_limit');
         $data['entry_product'] = $this->language->get('entry_product');
         $data['entry_category'] = $this->language->get('entry_category');
@@ -159,12 +161,28 @@ class ControllerExtensionModuleProductOfCategories extends Controller
             $data['product_of_categories_limit'] = '';
         }
 
-        if (isset($this->request->post['product_of_categories_status'])) {
-            $data['product_of_categories_status'] = $this->request->post['product_of_categories_status'];
+        if (isset($this->request->post['width'])) {
+            $data['width'] = $this->request->post['width'];
         } elseif (!empty($module_info)) {
-            $data['product_of_categories_status'] = $module_info['product_of_categories_status'];
+            $data['width'] = $module_info['width'];
         } else {
-            $data['product_of_categories_status'] = '';
+            $data['width'] = '';
+        }
+
+        if (isset($this->request->post['height'])) {
+            $data['height'] = $this->request->post['height'];
+        } elseif (!empty($module_info)) {
+            $data['height'] = $module_info['height'];
+        } else {
+            $data['height'] = '';
+        }
+
+        if (isset($this->request->post['status'])) {
+            $data['status'] = $this->request->post['status'];
+        } elseif (!empty($module_info)) {
+            $data['status'] = $module_info['status'];
+        } else {
+            $data['status'] = '';
         }
 
 
@@ -178,7 +196,7 @@ class ControllerExtensionModuleProductOfCategories extends Controller
 
         var_dump( $module_info['product_of_categories_categories'] );
 
-        var_dump( $data['product_of_categories_id'] );
+        var_dump( $this->getCategory() );
 
 
         /*if (isset($this->request->post['product_of_categories_limit'])) {
@@ -216,7 +234,7 @@ class ControllerExtensionModuleProductOfCategories extends Controller
         return !$this->error;
     }
 
-    protected function getStingCategoryId()
+    /*protected function getStingCategoryId()
     {
         $this->load->model('extension/module/product_of_categories');
 
@@ -248,7 +266,7 @@ class ControllerExtensionModuleProductOfCategories extends Controller
 
         }
         return $str_category_id;
-    }
+    }*/
 
     public function autocomplete()
     {
@@ -308,7 +326,7 @@ class ControllerExtensionModuleProductOfCategories extends Controller
 
     public function getCategory()
     {
-        $this->load->model('extension/module/product_of_categories');
+        /*$this->load->model('extension/module/product_of_categories');
 
         $json = array();
 
@@ -324,6 +342,28 @@ class ControllerExtensionModuleProductOfCategories extends Controller
             }
 
             $json = $this->model_extension_module_product_of_categories->getCategories($data['category_name']);
+
+        }*/
+
+        $this->load->model('catalog/category');
+
+        $json = array();
+
+        if (isset($this->request->post['category_name'])) {
+            
+            if (isset($this->request->post['category_name'])) {
+                $data['category_name'] = $this->request->post['category_name'];
+            } elseif (!empty($module_info)) {
+                $data['category_name_one'] = $module_info['category_name'];
+            } else {
+                $data['category_name'] = '';
+            }
+
+            $filter_Category = array(
+                'filter_name' => $data['category_name']
+            );
+
+            $json = $this->model_catalog_category->getCategories($filter_Category);
 
         }
 

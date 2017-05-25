@@ -74,10 +74,24 @@
                         </div>
 
                         <div class="form-group">
+                            <label class="col-sm-2 control-label" for="input-width"><?php echo $entry_width; ?></label>
+                            <div class="col-sm-10">
+                                <input type="text" name="width" value="<?php echo $width; ?>" placeholder="<?php echo $entry_width; ?>" id="input-limit" class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label" for="input-height"><?php echo $entry_height; ?></label>
+                            <div class="col-sm-10">
+                                <input type="text" name="height" value="<?php echo $height; ?>" placeholder="<?php echo $entry_height; ?>" id="input-limit" class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
                             <label class="col-sm-2 control-label" for="input-status"><?php echo $entry_status; ?></label>
                             <div class="col-sm-10">
-                                <select name="product_of_categories_status" id="input-status" class="form-control">
-                                    <?php if ($product_of_categories_status) { ?>
+                                <select name="status" id="input-status" class="form-control">
+                                    <?php if ($status) { ?>
                                         <option value="1" selected="selected"><?php echo $text_enabled; ?></option>
                                         <option value="0"><?php echo $text_disabled; ?></option>
                                     <?php } else { ?>
@@ -94,23 +108,7 @@
         </div>
 
         <script type="text/javascript">
-            $('#input-category').change(function () {
-                var category_id = $('#input-category option:selected').val();
 
-                var data = {
-                    "category_id": category_id
-                };
-
-                $.ajax({
-                    url: 'index.php?route=extension/module/product_of_categories/autocomplete&token=<?php echo $token; ?>',
-                    type: 'post',
-                    data: data,
-                    dataType: 'json',
-                    success: function(json) {
-
-                    }
-                });
-            });
             /* Выбор категории */
             $('#input-search-category').autocomplete({
                 source: function (request, response) {

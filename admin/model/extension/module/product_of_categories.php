@@ -14,7 +14,7 @@ class ModelExtensionModuleProductOfCategories extends Model
         $product =  DB_PREFIX . "product";
         $product_to_category = DB_PREFIX . "product_to_category";
 
-        $query = $this->db->query("SELECT ".$product.".model, ".$product.".product_id FROM ".$product.",".$product_to_category." WHERE LOWER(`model`) LIKE '" . $model . "%' AND category_id IN(" . (string)$category_id . ") AND oc_product_to_category.product_id = oc_product.product_id LIMIT 5" );
+        $query = $this->db->query("SELECT ".$product.".model, ".$product.".product_id FROM ".$product.",".$product_to_category." WHERE LOWER(`model`) LIKE '" . $model . "%' AND category_id IN(" . (string)$category_id . ") AND status='1' AND oc_product_to_category.product_id = oc_product.product_id LIMIT 5" );
 
         foreach ( $query as $item) {
             $products = $item;
