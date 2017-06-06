@@ -1,0 +1,45 @@
+
+
+.product-of-categories__box {
+    text-align: center;
+}
+.product-of-categories__title {
+    text-align: center;
+}
+.product-of-categories__product {
+    height: 300px;
+}
+
+.product-of-categories__img {
+    margin: 0 auto;
+}
+
+.product-of-categories__button-info {
+    position: absolute;
+    left: 0;
+    margin-top: 70px;
+    width: 100%;
+    z-index: 10;
+}
+
+.product-of-categories__name {
+    display: block;
+    height: 18px;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.product-of-categories__rating {
+    font-size: 6px;
+    color: #c3c333;
+}
+
+.product-of-categories__button-group {
+    display: none;
+}
+.product-of-categories__button-group button {
+    font-size: 12px;
+    padding: 0 12px 0 12px;
+    color: yellowgreen;
+    margin: 6px 6px -2px 6px;
+}
