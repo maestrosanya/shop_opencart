@@ -4,7 +4,7 @@
     text-align: center;
 }
 .product-of-categories__title {
-    text-align: center;
+    margin-bottom: 25px;
 }
 .product-of-categories__product {
     height: 300px;
@@ -21,12 +21,22 @@
     width: 100%;
     z-index: 10;
 }
+.product-of-categories__button-info div {
+    font-size: 18px;
+    color: #000000;
+}
 
 .product-of-categories__name {
     display: block;
     height: 18px;
     font-size: 16px;
     overflow: hidden;
+    color: #333333;
+}
+.product-of-categories__price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #696969;
 }
 
 .product-of-categories__rating {

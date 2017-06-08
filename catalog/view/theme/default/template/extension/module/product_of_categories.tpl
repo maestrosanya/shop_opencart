@@ -6,7 +6,7 @@
                 <div class="product-thumb transition product-of-categories__product">
 
                     <div class="product-of-categories__button-group product-of-categories__button-info">
-                        <h4>Подробнее</h4>
+                        <div>Подробнее</div>
                     </div>
 
                     <div class="image product-of-categories__img-box"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive product-of-categories__img" /></a></div>
@@ -19,7 +19,7 @@
                     <div class="caption">
                         <h4><a class="product-of-categories__name" href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h4>
                         <?php if ($product['price']) { ?>
-                            <p class="price">
+                            <p class="price product-of-categories__price">
                                 <?php if (!$product['special']) { ?>
                                     <?php echo $product['price']; ?>
                                 <?php } else { ?>

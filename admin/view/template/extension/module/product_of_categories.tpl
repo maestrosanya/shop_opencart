@@ -37,13 +37,6 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="col-sm-2 control-label" for="input-limit"><?php echo $entry_limit; ?></label>
-                            <div class="col-sm-10">
-                                <input type="text" name="product_of_categories_limit" value="<?php echo $product_of_categories_limit; ?>" placeholder="<?php echo $entry_limit; ?>" id="input-limit" class="form-control" />
-                            </div>
-                        </div>
-
-                        <div class="form-group">
                             <label class="col-sm-2 control-label" for="input-category"><?php echo $entry_category; ?></label>
                             <div class="col-sm-10">
                                 <input type="text" name="product_of_categories_search_category" value="" placeholder="" id="input-search-category" class="form-control" />
@@ -106,6 +99,7 @@
                 </div>
             </div>
         </div>
+    </div>
 
         <script type="text/javascript">
 
@@ -182,13 +176,6 @@
                         type: 'post',
                         data: data,
                         dataType: 'json',
-                        /*dataFilter: function (json) {
-                            if ( json === null ) {
-                                console.log(json + " JSON === null");
-                            } else {
-                                console.log(json + " JSON != null");
-                            }
-                        },*/
                         success: function (json) {
 
                             console.log(json);
@@ -211,39 +198,5 @@
                 $(this).parent().remove();
             });
         </script>
-
-       <!-- <script type="text/javascript">
-            $('input[name=\'product_name\']').autocomplete({
-                source: function(request, response) {
-                    $.ajax({
-                        url: 'index.php?route=catalog/product/autocomplete&token=<?php /*echo $token; */?>&filter_name=' +  encodeURIComponent(request),
-                        dataType: 'json',
-                        success: function(json) {
-                            response($.map(json, function(item) {
-                                return {
-                                    label: item['name'],
-                                    value: item['product_id']
-                                }
-                            }));
-                        }
-                    });
-                },
-                select: function(item) {
-                    $('input[name=\'product_name\']').val('');
-
-                    $('#featured-product' + item['value']).remove();
-
-                    $('#featured-product').append('<div id="featured-product' + item['value'] + '"><i class="fa fa-minus-circle"></i> ' + item['label'] + '<input type="hidden" name="product[]" value="' + item['value'] + '" /></div>');
-                }
-            });
-
-            $('#featured-product').delegate('.fa-minus-circle', 'click', function() {
-                $(this).parent().remove();
-            });
-            </script>-->
-
-    </div>
-
-
 
 <?php echo $footer; ?>

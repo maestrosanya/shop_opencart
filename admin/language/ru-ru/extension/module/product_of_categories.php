@@ -16,7 +16,7 @@ $_['entry_height']      = 'Высота';
 $_['entry_limit']       = 'Лимит';
 $_['entry_product']     = 'Выбор товара';
 $_['entry_category']    = 'Выбор категории';
-$_['entry_search_products'] = 'Поиск товара';
+$_['entry_search_products'] = 'Выбор товара';
 // Error
 $_['error_name']        = 'Ошибка в названии группы товаров';
 $_['error_permission']  = 'У Вас нет прав для управления данным модулем!';

@@ -89,9 +89,7 @@ class ControllerExtensionModuleProductOfCategories extends Controller
             );
 
         }
-
-        //var_dump($this->config->get($this->config->get('config_theme') . '_product_description_length') . '..');
-
+        
         return $this->load->view('extension/module/product_of_categories', $data);
     }
 }

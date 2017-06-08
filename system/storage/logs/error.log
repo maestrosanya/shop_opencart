@@ -8043,3 +8043,19 @@
 2017-06-06 14:20:07 - PHP Notice:  Undefined variable: content_bottom in C:\OpenServer\domains\real\catalog\view\theme\default\template\product\category.tpl on line 151
 2017-06-06 14:20:07 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\real\catalog\view\theme\default\template\product\category.tpl on line 152
 2017-06-06 14:20:07 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\real\catalog\view\theme\default\template\product\category.tpl on line 154
+2017-06-06 22:58:24 - PHP Notice:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in C:\OpenServer\domains\real\system\library\image.php on line 26
+2017-06-06 23:00:48 - PHP Notice:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in C:\OpenServer\domains\real\system\library\image.php on line 26
+2017-06-06 23:07:15 - PHP Notice:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in C:\OpenServer\domains\real\system\library\image.php on line 26
+2017-06-06 23:10:34 - PHP Notice:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in C:\OpenServer\domains\real\system\library\image.php on line 26
+2017-06-06 23:11:18 - PHP Notice:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in C:\OpenServer\domains\real\system\library\image.php on line 26
+2017-06-07 0:03:14 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\real\catalog\controller\account\login.php on line 188
+2017-06-07 0:03:14 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\real\catalog\controller\account\login.php on line 195
+2017-06-07 0:03:14 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\real\catalog\controller\account\login.php on line 202
+2017-06-07 0:03:14 - PHP Notice:  Undefined index: password in C:\OpenServer\domains\real\catalog\controller\account\login.php on line 202
+2017-06-07 0:03:14 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\real\catalog\controller\account\login.php on line 205
+2017-06-08 13:47:08 - PHP Notice:  Undefined variable: product_of_categories_limit in C:\OpenServer\domains\real\admin\view\template\extension\module\product_of_categories.tpl on line 42
