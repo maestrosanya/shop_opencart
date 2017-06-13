@@ -31,6 +31,8 @@ class ControllerExtensionModuleProductOfCategories extends Controller
         }
 
 
+        $str_id = '';
+
         if ( !empty($setting['product_of_categories_products']) ) {
 
             foreach ($setting['product_of_categories_products'] as $products) {
@@ -65,6 +67,12 @@ class ControllerExtensionModuleProductOfCategories extends Controller
                 $special = false;
             }
 
+            if ($this->config->get('config_tax')) {
+                $tax = $this->currency->format((float)$product_info['special'] ? $product_info['special'] : $product_info['price'], $this->session->data['currency']);
+            } else {
+                $tax = false;
+            }
+
             if ($this->customer->isLogged() || !$this->config->get('config_customer_price')) {
                 $price = $this->currency->format($this->tax->calculate($product_info['price'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
             } else {
@@ -82,6 +90,7 @@ class ControllerExtensionModuleProductOfCategories extends Controller
                 'name'          => $product_info['name'],
                 'thumb'         => $image,
                 'special'       => $special,
+                'tax'           => $tax,
                 'description'   => utf8_substr(strip_tags(html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8')), 0, $this->config->get($this->config->get('config_theme') . '_product_description_length')) . '..',
                 'price'         => $price,
                 'rating'        => $rating,
@@ -90,6 +99,6 @@ class ControllerExtensionModuleProductOfCategories extends Controller
 
         }
         
-        return $this->load->view('extension/module/product_of_categories', $data);
+        return $this->load->view('extension/module/featured', $data);
     }
 }

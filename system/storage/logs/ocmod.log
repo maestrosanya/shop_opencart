@@ -4450,3 +4450,144 @@ FILE: admin/language/ru-ru/common/column_left.php
 CODE: <?php
 LINE: 1
 ----------------------------------------------------------------
+2017-06-08 18:34:23 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: ocMod for FastFood template
+
+FILE: admin/controller/common/filemanager.php
+CODE: 300000
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/controller/common/header.php
+CODE: $category['name'],
+LINE: 118
+CODE: $this->config->get('config_telephone');
+LINE: 145
+CODE: $children_data[] = array(
+LINE: 169
+
+FILE: catalog/controller/common/home.php
+CODE: controller('common/header');
+LINE: 24
+
+FILE: catalog/controller/information/contact.php
+CODE: $this->config->get('config_fax');
+LINE: 113
+
+FILE: catalog/controller/api/cart.php
+CODE: $data['text_items']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $data['text_items']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/controller/common/cart.php
+CODE: $data['text_items']
+LINE: 54
+CODE: $json['total']
+NOT FOUND - OPERATIONS ABORTED!
+CODE: $data['text_items']
+LINE: 115
+CODE: $product['quantity'],
+LINE: 160
+LINE: 174
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['newsletter'] = $this->url->link('account/newsletter', '', 'SSL');
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/controller/common/search.php
+CODE: $this->load->language('common/search');
+LINE: 15
+
+FILE: catalog/controller/product/category.php
+CODE: getTotalProducts($filter_data) . ')' : ''),
+LINE: 164
+CODE: $this->language->get('heading_title');
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/controller/product/product.php
+CODE: $this->language->get('heading_title');
+NOT FOUND - OPERATIONS ABORTED!
+CODE: $this->language->get('heading_title');
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/controller/product/search.php
+CODE: $this->language->get('heading_title');
+LINE: 133
+CODE: $data['products'][] = array(
+LINE: 376
+CODE: $data['products'][] = array(
+LINE: 389
+
+FILE: catalog/controller/product/special.php
+CODE: $this->language->get('heading_title');
+LINE: 70
+CODE: $data['products'][] = array(
+LINE: 261
+CODE: $data['products'][] = array(
+LINE: 274
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $this->language->get('heading_title');
+LINE: 16
+CODE: $data['products'][] = array(
+LINE: 339
+CODE: $data['products'][] = array(
+LINE: 352
+CODE: $data['thumb'] = $this->model_tool_image->resize($category_info['image'], $this->config->get('config_image_category_width'), $this->config->get('config_image_category_height'));
+NOT FOUND - OPERATIONS ABORTED!
+CODE: $result = $product_info;
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_option_value['weight'],
+LINE: 360
+CODE: public function getBestSellerProducts
+LINE: 296
+CODE: $data['options'] = array();
+LINE: 354
+CODE: 'product_option_value_id' =>
+LINE: 374
+----------------------------------------------------------------
